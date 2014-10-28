@@ -91,19 +91,37 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    /*background: #E3E4E4;*/
+}
 
+.site-top {
+    background:black;
+    color:white;
+}
 
+.logo {
+    float:left;
+    max-width:100%;
+}
 
+.site-topbar {
+   max-width:1000px;
+    margin: 0 auto;
+    padding:5px 0;
+}
 
+.site-title {
+    padding-left:350px;
+}
 
+.navbar {
+max-width:1000px;
+}
 
-
-
-
-
-
-
-
+.navbar li {
+    display:inline-block;
+}
 
 
 
