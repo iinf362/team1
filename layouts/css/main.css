@@ -415,9 +415,11 @@ label {
     }
 }
 
+@media(min-width: 630px) {
 .cont-def {
     margin-right:10px;
     margin-left:10px;
+}
 }
 
 /* --- Footer --- */
