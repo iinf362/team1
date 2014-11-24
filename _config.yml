@@ -1,0 +1,10 @@
+# Site settings
+title: Renters Rights
+email: lferrazfarias@albany.edu
+description: Website created by UAlbany students to help solving landlord/tenant issues.
+url: http://iinf362.github.io/team1/layouts/front-page.html
+github_username: iinf362/team1
+
+# Build settings
+markdown: kramdown
+permalink: pretty
