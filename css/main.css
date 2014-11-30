@@ -127,6 +127,14 @@
         text-align:center;
     }
 
+    .bold {
+        font-weight: bold;
+    }
+
+    blockquote {
+        background:white;
+    }
+
     @media(min-width: 897px) {
         .logo {
             width:226px;
@@ -141,12 +149,12 @@
     }
 
     .site-topbar {
-     max-width:1000px;
-     margin: 0 auto;
-     padding:15px 5px;
- }
+       max-width:1000px;
+       margin: 0 auto;
+       padding:15px 5px;
+   }
 
- .site-title {
+   .site-title {
     margin-left:38%;
     font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
     font-size: 27px;
@@ -155,13 +163,13 @@
 }   
 
 @media(min-width: 897px) {
- .site-title {
+   .site-title {
     margin-left:55%;
 }
 }
 
 @media(max-width: 629px) {
- .logo {
+   .logo {
     display:none;
 }
 
@@ -374,17 +382,17 @@
 }
 
 .content-bar {
- width:100%;
- background:black;
- border-radius:5px 5px 2px 2px;
- /*background:#00177C;*/
+   width:100%;
+   background:black;
+   border-radius:5px 5px 2px 2px;
+   /*background:#00177C;*/
 }
 
 .custom-bar {
- width:100%;
- background:black;
- border-radius:5px 5px 2px 2px;
- /*background:#00177C;*/
+   width:100%;
+   background:black;
+   border-radius:5px 5px 2px 2px;
+   /*background:#00177C;*/
 }
 
 /* --- Menu buttons ---*/
