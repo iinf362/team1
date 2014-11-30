@@ -123,6 +123,10 @@
         width:117px;
     }
 
+    .custom-title {
+        text-align:center;
+    }
+
     @media(min-width: 897px) {
         .logo {
             width:226px;
@@ -371,14 +375,12 @@
 .content-bar {
  width:100%;
  background:black;
- height:40px;
  /*background:#00177C;*/
 }
 
 .custom-bar {
  width:100%;
  background:black;
- height:40px;
  /*background:#00177C;*/
 }
 
