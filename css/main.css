@@ -316,9 +316,9 @@
     margin-bottom:10px;
 }
 
-.cont-def p {
-    margin-left: 7px;
-    margin-right:7px;
+.cont-def p, .cont-def li {
+    margin-left: 20px;
+    margin-right:20px;
 }
 
 @media (max-width: 900px) {
@@ -353,8 +353,19 @@
     text-align:center;
 }
 .placehold{
-    max-width: 100%
+    max-width: 77%;
+    margin-left:75px;
+    margin-right:75px;
 }
+
+@media(max-width:674px) {
+    .placehold{
+    max-width: 90%;
+    margin-left:20px;
+    margin-right:20px;
+}
+}
+
 .box-list {
     padding-left:30%;
 
