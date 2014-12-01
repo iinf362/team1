@@ -107,61 +107,61 @@
       max-width: 35em;
       margin-left:auto;
       margin-right:auto;
-    }
+  }
 
-    /* --- Header --- */
+  /* --- Header --- */
 
-    .site-top {
-        background:#273054;
-        color:white;
-    }
+  .site-top {
+    background:#273054;
+    color:white;
+}
 
+.logo {
+    float:left;
+    width:117px;
+}
+
+.custom-title {
+    text-align:center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.link-home {
+    text-decoration: none;
+    color:white;
+}
+
+.link-home:hover {
+    color:tomato;
+}
+
+blockquote {
+    background:white;
+}
+
+@media(min-width: 950px) {
     .logo {
-        float:left;
-        width:117px;
+        width:226px;
+        margin-left:3%;
     }
+}
 
-    .custom-title {
-        text-align:center;
+@media(min-width:675px) and (max-width: 949px) {
+    .site-top {
+        margin-top:-10px;
     }
+}
 
-    .bold {
-        font-weight: bold;
-    }
+.site-topbar {
+ max-width:1000px;
+ margin: 0 auto;
+ padding:15px 5px;
+}
 
-    .link-home {
-        text-decoration: none;
-        color:white;
-    }
-
-    .link-home:hover {
-        color:tomato;
-    }
-
-    blockquote {
-        background:white;
-    }
-
-    @media(min-width: 950px) {
-        .logo {
-            width:226px;
-            margin-left:3%;
-        }
-    }
-
-    @media(min-width:675px) and (max-width: 949px) {
-        .site-top {
-            margin-top:-10px;
-        }
-    }
-
-    .site-topbar {
-       max-width:1000px;
-       margin: 0 auto;
-       padding:15px 5px;
-   }
-
-   .site-title {
+.site-title {
     margin-left:38%;
     font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
     font-size: 27px;
@@ -170,13 +170,13 @@
 }   
 
 @media(min-width: 950px) {
-   .site-title {
+ .site-title {
     margin-left:55%;
 }
 }
 
 @media(max-width: 674px) {
-   .logo {
+ .logo {
     display:none;
 }
 
@@ -317,14 +317,19 @@
 }
 
 .cont-def p, .cont-def li {
-    margin-left: 20px;
-    margin-right:20px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 @media (max-width: 900px) {
     .content p {
         margin-left: 7px;
         margin-right:7px;
+    }
+
+    .cont-def p, .cont-def li {
+        margin-left: 20px;
+        margin-right:20px;
     }
 }
 
@@ -360,10 +365,10 @@
 
 @media(max-width:674px) {
     .placehold{
-    max-width: 90%;
-    margin-left:20px;
-    margin-right:20px;
-}
+        max-width: 90%;
+        margin-left:20px;
+        margin-right:20px;
+    }
 }
 
 .box-list {
@@ -376,17 +381,17 @@
 }
 
 .content-bar {
-   width:100%;
-   background:#273054;
-   border-radius:5px 5px 2px 2px;
-   /*background:#00177C;*/
+ width:100%;
+ background:#273054;
+ border-radius:5px 5px 2px 2px;
+ /*background:#00177C;*/
 }
 
 .custom-bar {
-   width:100%;
-   background:#273054;
-   border-radius:5px 5px 2px 2px;
-   /*background:#00177C;*/
+ width:100%;
+ background:#273054;
+ border-radius:5px 5px 2px 2px;
+ /*background:#00177C;*/
 }
 
 /* --- Menu buttons ---*/
