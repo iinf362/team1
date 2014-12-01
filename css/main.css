@@ -103,6 +103,12 @@
         font-size:1.2em;
     }
 
+    .content p {
+      max-width: 35em;
+      margin-left:auto;
+      margin-right:auto;
+    }
+
     /* --- Header --- */
 
     .site-top {
@@ -310,10 +316,18 @@
     margin-bottom:10px;
 }
 
-.content p, .cont-def p {
+.cont-def p {
     margin-left: 7px;
     margin-right:7px;
 }
+
+@media (max-width: 900px) {
+    .content p {
+        margin-left: 7px;
+        margin-right:7px;
+    }
+}
+
 
 @media (min-width:675px) {
 
