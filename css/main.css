@@ -178,9 +178,9 @@ blockquote {
 }
 
 .site-topbar {
- max-width:1000px;
- margin: 0 auto;
- padding:15px 5px;
+   max-width:1000px;
+   margin: 0 auto;
+   padding:15px 5px;
 }
 
 .site-title {
@@ -192,13 +192,13 @@ blockquote {
 }   
 
 @media(min-width: 950px) {
- .site-title {
+   .site-title {
     margin-left:55%;
 }
 }
 
 @media(max-width: 674px) {
- .logo {
+   .logo {
     display:none;
 }
 
@@ -393,28 +393,23 @@ blockquote {
     }
 }
 
-.box-list {
-    padding-left:30%;
-
-}
-
 .answer {
     margin-left:33%;
 }
 
 .content-bar {
-   width:100%;
-   /*background:#1D4A4A;*/
-   border-radius:5px 5px 2px 2px;
-   background:#273054;
-   /*background:#00177C;*/
+ width:100%;
+ /*background:#1D4A4A;*/
+ border-radius:5px 5px 2px 2px;
+ background:#273054;
+ /*background:#00177C;*/
 }
 
 .custom-bar {
- width:100%;
- background:#273054;
- border-radius:5px 5px 2px 2px;
- /*background:#00177C;*/
+   width:100%;
+   background:#273054;
+   border-radius:5px 5px 2px 2px;
+   /*background:#00177C;*/
 }
 
 /* --- Menu buttons ---*/
@@ -465,11 +460,6 @@ blockquote {
     }
     .menu {
         display:none;
-    }
-
-    .content-bar {
-        height:10px;
-        /*border-radius: 0 0 10px 10px;*/
     }
 
     .cont-def {
