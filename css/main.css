@@ -160,6 +160,10 @@
     margin-bottom:10px;
 }
 
+.box-search {
+    max-width:169px;
+}
+
 blockquote {
     background:white;
 }
@@ -235,6 +239,23 @@ blockquote {
         display:none;
     }
     .mobile-logo {
+        display:none;
+    }
+}
+
+.search {
+    margin-top:25px;
+    margin-left:6%;
+}
+
+@media(min-width: 675px) and (max-width:800px) {
+.search {
+    margin-left:2%;
+}
+}
+
+@media(max-width: 674px) {
+    .search {
         display:none;
     }
 }
@@ -380,7 +401,7 @@ blockquote {
     text-align:center;
 }
 .placehold{
-    max-width: 77%;
+    max-width: 100%;
     margin-left:75px;
     margin-right:75px;
 }
