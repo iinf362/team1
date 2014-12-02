@@ -369,6 +369,9 @@ blockquote {
         margin-left:20px;
         margin-right:20px;
     }
+    .menu {
+        font-size:1.4em;
+    }
 }
 
 .box-list {
