@@ -363,17 +363,6 @@ blockquote {
     margin-right:75px;
 }
 
-@media(max-width:674px) {
-    .placehold{
-        max-width: 90%;
-        margin-left:20px;
-        margin-right:20px;
-    }
-    .menu {
-        font-size:1.4em;
-    }
-}
-
 .box-list {
     padding-left:30%;
 
@@ -457,6 +446,18 @@ blockquote {
         margin-left:10px;
     }
 }
+
+@media(max-width:674px) {
+    .placehold{
+        max-width: 90%;
+        margin-left:20px;
+        margin-right:20px;
+    }
+    .menu {
+        font-size:1.4em;
+    }
+}
+
 /* --- Footer --- */
 
 .footer {
