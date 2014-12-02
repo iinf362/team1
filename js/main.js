@@ -8,7 +8,7 @@ $(document).ready(function(){
 
 //JavaScript
 function searchGoogle() {
-    var link = "http://www.google.com/#q="+document.forms["search"]["text-search"].value+"+site:"+{{site.url}};
+    var link = "http://www.google.com/#q="+document.forms["search"]["text-search"].value+"+site:http://iinf362.github.io/team1";
     var googleLink = link.replace(" ", "+");
     document.search.action = googleLink;
     return true;
