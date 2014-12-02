@@ -363,6 +363,14 @@ blockquote {
     margin-right:75px;
 }
 
+@media(max-width:674px) {
+    .placehold{
+        max-width: 90%;
+        margin-left:20px;
+        margin-right:20px;
+    }
+}
+
 .box-list {
     padding-left:30%;
 
@@ -408,7 +416,7 @@ blockquote {
 }
 .menu {
     margin-left:5px;
-    font-size:1.7em;
+    font-size:1.5em;
     text-decoration:none;
     color:white;
     position: relative;
@@ -444,17 +452,6 @@ blockquote {
     .cont-def {
         margin-right:10px;
         margin-left:10px;
-    }
-}
-
-@media(max-width:674px) {
-    .placehold{
-        max-width: 90%;
-        margin-left:20px;
-        margin-right:20px;
-    }
-    .menu {
-        font-size:1.4em;
     }
 }
 
