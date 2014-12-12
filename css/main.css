@@ -91,11 +91,11 @@
    Author's custom styles
    ========================================================================== */
 
-  /* body {
-    background: #E3E4E4;
-    }*/
+    body {
+    font-family: sans-serif;
+    }
 
-    a{
+    a {
         color:#1D4A4A;
     }
 
