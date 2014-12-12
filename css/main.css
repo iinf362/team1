@@ -166,6 +166,7 @@
 
 blockquote {
     background:white;
+    padding:15px;
 }
 
 @media(min-width: 950px) {
