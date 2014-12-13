@@ -446,6 +446,8 @@ blockquote {
    width:100%;
    background:#263033;
    border-radius:5px 5px 2px 2px;
+   padding-bottom: 8px;
+   padding-top: 8px;
    /*background:#00177C;*/
 }
 
