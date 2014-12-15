@@ -4,16 +4,22 @@ $(document).ready(function(){
 	$(".menu").click(function(){
 		$(this).parent().next().slideToggle("slow");
 	});
-	$("#slideshow > div:gt(0)").hide();
-setInterval(function() { 
-  $('#slideshow > div:first')
-    .fadeOut(1000)
-    .next()
-    .fadeIn(1000)
-    .end()
-    .appendTo('#slideshow');
-},  3000);
-});
+	
+		$(function() {
+		
+			$("#slideshow > div:gt(0)").hide();
+	
+			setInterval(function() { 
+			  $('#slideshow > div:first')
+			    .fadeOut(1000)
+			    .next()
+			    .fadeIn(1000)
+			    .end()
+			    .appendTo('#slideshow');
+			},  3000);
+			
+		});
+	
 });
 
 //JavaScript
