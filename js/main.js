@@ -17,7 +17,7 @@ function searchGoogle() {
 function nextSlide() {
     var q = function(sel) { return document.querySelector(sel); }   
     
-  q(".slides").appendChild(q(".slides img:first-child"));
+  q(".placehold").appendChild(q(".placehold img:first-child"));
 }
 setInterval(nextSlide, 3000)
 </script>
