@@ -4,9 +4,7 @@ $(document).ready(function(){
 	$(".menu").click(function(){
 		$(this).parent().next().slideToggle("slow");
 	});
-});
-$("#slideshow > div:gt(0)").hide();
-
+	$("#slideshow > div:gt(0)").hide();
 setInterval(function() { 
   $('#slideshow > div:first')
     .fadeOut(1000)
@@ -15,6 +13,9 @@ setInterval(function() {
     .end()
     .appendTo('#slideshow');
 },  3000);
+});
+});
+
 //JavaScript
 function searchGoogle() {
     var link = "http://www.google.com/#q="+document.forms["search"]["text-search"].value+"+site:http://iinf362.github.io/team1";
