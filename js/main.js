@@ -13,11 +13,3 @@ function searchGoogle() {
     document.search.action = googleLink;
     return true;
 }
-<script>
-function nextSlide() {
-    var q = function(sel) { return document.querySelector(sel); }   
-    
-  q(".place-hold").appendChild(q(".place-hold img:first-child"));
-}
-setInterval(nextSlide, 3000)
-</script>
