@@ -112,13 +112,14 @@
   /* --- Header --- */
 
   .site-top {
-    background:#273054;
+    background:#001F3F;
     color:white;
+    height: 165px;
 }
 
 .logo {
     float:left;
-    width:225px;
+    width:340px;
     
 }
 
