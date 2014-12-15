@@ -112,9 +112,7 @@
   /* --- Header --- */
 
   .site-top {
-    background-color: rgba(0, 109, 217, 1);
-background: rgba(0, 109, 217, 1);
-color: rgba(0, 109, 217, 1);
+    background:#063291;
     color:white;
     height: 165px;
 }
