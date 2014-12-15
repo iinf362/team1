@@ -112,7 +112,7 @@
   /* --- Header --- */
 
   .site-top {
-    background:#001F3F;
+    background:#779ECB;
     color:white;
     height: 165px;
 }
@@ -173,7 +173,7 @@ blockquote {
 
 @media(min-width: 950px) {
     .logo {
-        width:226px;
+        width:340px;
         margin-left:3%;
     }
 }
